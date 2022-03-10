@@ -8,49 +8,51 @@
 
   <body>
     <div class="container">
-      <header class="main-header">
-        <h1>Welcome to Alex's Webpage!</h1>
-        <nav>
-          <a href="Assignment 4/fancifymytext.html" target="_blank"
-            >Assignment 4</a
-          >
-          <a href="Assignment 5/starter/encrypt-it.html" target="_blank"
-            >Assignment 5</a
-          >
-        </nav>
+      <header>
+        <div class="header-text-box">
+          <h1>Welcome to Alex Furmuzan's Webpage!</h1>
+          <p class="header-text">
+            Here is my webpage for my CSC196W course! You will find all of the
+            assignments I have completed for this course along with my passion
+            for weightlifting below! Have a good stay.
+          </p>
+          <p class="header-text">
+            Here is a
+            <a
+              href="https://strengthlevel.com/strength-standards"
+              title="Weightlifting Standards"
+              target="_blank"
+              >Weightlifting resource</a
+            >
+            that I constantly refer to when it comes to what weight I should be
+            lifting according to the average athlete.
+          </p>
+        </div>
+        <img src="./Assignment 3/img/Me.jpg" alt="Alex Furmuzan" />
       </header>
 
-      <article class="main-content">
-        <p>
-          I enjoy working out in the <strong>gym</strong>. It provides me with
-          <strong>physical</strong> and <strong>health benefits</strong>. I am
-          very interested in <strong>physical fitness</strong> and
-          <strong>eating healthy</strong>.
-        </p>
+      <section class="workout-content">
+        <h1 class="section-header">
+          Working out is one of my biggest passions alongside with coding.
+        </h1>
+        <div class="grid-2-columns">
+          <p>
+            I enjoy working out in the <strong>gym</strong>. It provides me with
+            <strong>physical</strong> and <strong>health benefits</strong>. I am
+            very interested in <strong>physical fitness</strong> and
+            <strong>eating healthy</strong>.
+          </p>
 
-        <p>
-          Here is a
-          <a
-            href="https://strengthlevel.com/strength-standards"
-            title="Weightlifting Standards"
-            target="_blank"
-            >Weightlifting resource</a
-          >
-          that I constantly refer to when it comes to what weight I should be
-          lifting according to the average athlete.
-        </p>
-
-        <p>
-          Below is an example of my favorite exercise, the
-          <strong>dumbbell press</strong>. This shows the muscle groups it is
-          targeting, along with the motion involved. If you click the image, you
-          will be taken to a different website that further details this
-          exercise.
-        </p>
+          <p>
+            Below is an example of my favorite exercise, the
+            <strong>dumbbell press</strong>. This shows the muscle groups it is
+            targeting, along with the motion involved.
+          </p>
+        </div>
 
         <h2>Three things to focus on when doing dumbbell press:</h2>
 
-        <ul>
+        <ol class="bench-press-rec">
           <li>
             Lay <strong>flat</strong> on bench, use
             <strong>feet as base</strong>.
@@ -63,7 +65,7 @@
             <strong>Contract</strong> and <strong>stretch</strong> chest when
             lowering and raising weight.
           </li>
-        </ul>
+        </ol>
 
         <a
           href="https://weighttraining.guide/exercises/incline-reverse-grip-dumbbell-bench-press/"
@@ -76,7 +78,49 @@
             height="400"
           />
         </a>
-      </article>
+      </section>
+
+      <section class="assignment-content">
+        <h1 class="section-header">Alex's Assignments</h1>
+        <div class="grid-3-columns">
+          <div>
+            <a href="./Assignment 4/fancifymytext.html" target="_blank"
+              >Assignment 4</a
+            >
+            <a href="./Assignment 4/fancifymytext.html" target="_blank">
+              <img
+                src="Assignment 3/img/Ass-4.PNG"
+                alt="Assignment 4"
+                class="Assignment-pic"
+              />
+            </a>
+          </div>
+          <div>
+            <a href="./Assignment 5/starter/encrypt-it.html" target="_blank"
+              >Assignment 5</a
+            >
+            <a href="./Assignment 5/starter/encrypt-it.html" target="_blank">
+              <img
+                src="./Assignment 3/img/Ass-5.PNG"
+                alt="Assignment 5"
+                class="Assignment-pic"
+              />
+            </a>
+          </div>
+          <div>
+            <!-- <a href="./Assignment 5/starter/encrypt-it.html" target="_blank"
+              >Assignment 6</a
+            >
+            <a href="./Assignment 4/fancifymytext.html" target="_blank">
+              <img
+                src="Assignment 3/img/Ass-4.PNG"
+                alt="Assignment 6"
+                class="Assignment-pic"
+              />
+            </a> -->
+          </div>
+        </div>
+      </section>
     </div>
   </body>
 </html>
